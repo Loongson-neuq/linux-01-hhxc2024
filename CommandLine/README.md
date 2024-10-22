@@ -38,7 +38,8 @@ fish shell的欢迎界面，能够输入help来查看如何使用fish shell
 你能获取到的信息：
 
 ```
-这个图片储存在./assets/目录下，文件名叫fish-prompt.png
+用户名为yttenhs，主机名为ROG-Strix-G16的电脑，时间为8：7：12pm
+fish的界面
 ```
 
 ### 4
@@ -48,7 +49,7 @@ fish shell的欢迎界面，能够输入help来查看如何使用fish shell
 你能获取到的信息：
 
 ```
-这个图片储存在./assets/目录下，文件名叫zsh-prompt.png
+zsh中的界面
 ```
 
 ### 5
@@ -171,7 +172,7 @@ echo "Hello," >a.txt
 ### 2
 
 使用 1 行shell命令，在上一题的的 a.txt 中追加 "world!"
-cho "world!" >>a.txt
+echo "world!" >>a.txt
 ### 3
 
 同过软链接的方式解决[简答题](#简答题)的内容
