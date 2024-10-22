@@ -13,7 +13,7 @@
 你能获取到的信息：
 
 ```
-
+查找安装在用户名为caiyi主机名为archlinux的电脑安装的git的版本号
 ```
 
 ### 2
@@ -27,7 +27,8 @@ caiyi@LAPTOP-I80ETG8J ~> git --version
 你能获取到的信息：
 
 ```
-
+fish shell的欢迎界面，能够输入help来查看如何使用fish shell
+查看用户名为caiyi主机名为LAPTOP-I80EG8的电脑所安装的git版本号
 ```
 
 ### 3
@@ -37,7 +38,7 @@ caiyi@LAPTOP-I80ETG8J ~> git --version
 你能获取到的信息：
 
 ```
-
+这个图片储存在./assets/目录下，文件名叫fish-prompt.png
 ```
 
 ### 4
@@ -47,7 +48,7 @@ caiyi@LAPTOP-I80ETG8J ~> git --version
 你能获取到的信息：
 
 ```
-
+这个图片储存在./assets/目录下，文件名叫zsh-prompt.png
 ```
 
 ### 5
@@ -64,7 +65,8 @@ PS C:\Users\Caiyi Hsu>
 你能获取到的信息：
 
 ```
-
+当前为Windows PowerShell，微软公司声明版权，可以通过下方的链接下载最新版本
+当前所在的路径为C:\Users\Caiyi Hsu>
 ```
 
 ### 6
@@ -77,7 +79,7 @@ $ git --version
 你能获取到的信息：
 
 ```
-
+检查用户名为Caiyi Hsu主机名为LAPTOP-I80ETG8J MINGW64的电脑所安装的git版本号
 ```
 
 ## 编写命令
@@ -130,13 +132,13 @@ $ git --version
 
 ## 填空题
 
-1. 给出一个常用的打印文件内容的命令：____
+1. 给出一个常用的打印文件内容的命令：____cat
 
-2. 给出一个常用的创建空文件夹的命令：____
+2. 给出一个常用的创建空文件夹的命令：____mkdir my_empty_folder
 
-3. 如果我下载了一个 a.out 没有执行权限，你应该输入什么命令：____
+3. 如果我下载了一个 a.out 没有执行权限，你应该输入什么命令：____chmod +x a.out
 
-4. 在 Shell 中输出 "Hello, world" 的命令：____
+4. 在 Shell 中输出 "Hello, world" 的命令：____echo "Hello, world"
 
 ## 简答题
 
@@ -157,17 +159,21 @@ $ git --version
 ```
 在这里简述你的操作
 ```
-
+export PATH=~/riscv-gcc/bin:$PATH
+echo 'export PATH=~/riscv-gcc/bin:$PATH'>>~/.bashrc
+source~/.bashrc
 ## 可选附加作业(自学)
 
 ### 1
 
 使用 1 行shell命令，在当前文件夹的 a.txt 中写入 "Hello, "
-
+echo "Hello," >a.txt
 ### 2
 
 使用 1 行shell命令，在上一题的的 a.txt 中追加 "world!"
-
+cho "world!" >>a.txt
 ### 3
 
 同过软链接的方式解决[简答题](#简答题)的内容
+ln -s~/riscv-gcc/bin/g++-riscv64/usr/local/bin/g++
+ln -s~/riscv-gcc/bin/gcc-riscv64/usr/local/bin/gcc
